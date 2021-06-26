@@ -18,6 +18,7 @@ git branch (mostra branches)
 git branch -D <nome da branch> (deleta a branch)
 
 git checkout <nome da branch> (mudo para aquela branch) ex:.. git checkout feature/listaprodutos
+git checkout -b <nome da branch> (cria branch e ja vai para ela)
 git checkout <identificador do commit> (volto para aquele commit)
 git reset (reseta os add)
 
@@ -29,3 +30,5 @@ git show (mostra ultimo commit)
 git clone <nome do repo> (clona o repo)
 
 git pull (vai no github e atualiza seu repositorio local)
+
+.gitignore (Exemplo no arquivo .gitignore)
