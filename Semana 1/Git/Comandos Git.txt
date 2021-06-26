@@ -1,7 +1,11 @@
 git init (Inicia repo)
 git add <filename> (add só aquele arquivo)
 git add . (add todos os arquivos)
+
+
 git commit -m "Commita com mensagem"
+git commit -am "Adda e commita"
+
 
 git branch <nome da branch> (cria uma branch nova)
 {
@@ -14,9 +18,14 @@ git branch (mostra branches)
 git branch -D <nome da branch> (deleta a branch)
 
 git checkout <nome da branch> (mudo para aquela branch) ex:.. git checkout feature/listaprodutos
+git checkout <identificador do commit> (volto para aquele commit)
 git reset (reseta os add)
 
 git merge <nome da branch> (uno a linha do tempo que eu estou com a que eu passei como arg)
 git log (mostra o log dos commits)
 git show <identificador do commit mostrado no git log> (mostra o commit)
 git show (mostra ultimo commit)
+
+git clone <nome do repo> (clona o repo)
+
+git pull (vai no github e atualiza seu repositorio local)
