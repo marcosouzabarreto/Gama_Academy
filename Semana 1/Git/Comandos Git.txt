@@ -32,3 +32,4 @@ git clone <nome do repo> (clona o repo)
 git pull (vai no github e atualiza seu repositorio local)
 
 .gitignore (Exemplo no arquivo .gitignore)
+
