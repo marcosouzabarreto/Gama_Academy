@@ -1,0 +1,22 @@
+git init (Inicia repo)
+git add <filename> (add só aquele arquivo)
+git add . (add todos os arquivos)
+git commit -m "Commita com mensagem"
+
+git branch <nome da branch> (cria uma branch nova)
+{
+Na criacao de branches, para nao ficar uma lista de branch muito alta
+posso usar uma barra pra fazer uma branch com subcategorias
+ex:.. git branch feature/lista-produtos
+}
+git branch (mostra branches)
+
+git branch -D <nome da branch> (deleta a branch)
+
+git checkout <nome da branch> (mudo para aquela branch) ex:.. git checkout feature/listaprodutos
+git reset (reseta os add)
+
+git merge <nome da branch> (uno a linha do tempo que eu estou com a que eu passei como arg)
+git log (mostra o log dos commits)
+git show <identificador do commit mostrado no git log> (mostra o commit)
+git show (mostra ultimo commit)
